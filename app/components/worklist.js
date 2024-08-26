@@ -7,8 +7,8 @@ export const data = [
   },
   {
     id: 2,
-    img: "/BlogsWeb.png",
-    name: "BlogsWeb",
+    img: "/BLogsWeb.png",
+    name: "Blogs",
     link: "https://blogsbyoptimist.vercel.app/",
   },
   {
