@@ -14,12 +14,12 @@ const Header = () => {
       <h1 className="font-semibold md:text-8xl md:max-w-[70%] text-center md:m-auto mt-12 w-[90%] text-xl ">
         <span className="bg-gradient-to-l from-[#da7d25bd] to-[#b823e1c5] bg-clip-text text-transparent">
           {" "}
-          I'm Musa Zahoor,
+          I&apos;m Musa Zahoor,
         </span>{" "}
         Front-End developer based in Pakistan.
       </h1>
       <p className="md:w-[50%] text-center md:text-2xl w-[70%]  text-sm my-3 ">
-        I am looking for internships or entry-level jobs to learn and grow.
+        I&apos;m looking for internships or entry-level jobs to learn and grow.
       </p>
       <div className="flex flex-row justify-around items-center md:gap-6 gap-2 mb-12 font-semibold ">
         <div className="md:py-6 md:px-12 py-4 px-5 md:text-inherit text-md bg-gradient-to-l from-[#da7d25bd] to-[#b823e1c5] rounded-[50px] cursor-pointer hover:shadow-[0px_2px_0px_white]">
