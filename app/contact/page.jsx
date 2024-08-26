@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="flex md:flex-row flex-col gap-36">
         <div className="flex flex-col gap-7">
           <h1 className="md:text-7xl text-5xl font-bold bg-gradient-to-tl bg-clip-text text-transparent to-[#da7d25] from-[#b823e1fd]">
-            Let's talk
+            Let&apos;s talk
           </h1>
           <p className="md:max-w-[34.38rem] max-w-[30rem] text-[#D8D8D8] md:text-xl text-sm my-10">
             I&apos;m a junior front-end developer working with the MERN stack.
