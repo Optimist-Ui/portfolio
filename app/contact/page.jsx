@@ -24,8 +24,8 @@ const Contact = () => {
           <p className="md:max-w-[34.38rem] max-w-[30rem] text-[#D8D8D8] md:text-xl text-sm my-10">
             I&apos;m a junior front-end developer working with the MERN stack.
             I&apos;m looking for internships or entry-level jobs to learn and
-            grow. If you have any opportunities or projects, lets talk and see
-            how I can help.
+            grow. If you have any opportunities or projects, let&apos;s talk and
+            see how I can help.
           </p>
           <div className="flex flex-col md:gap-7 gap-5 text-[#D8D8D8] text-xl">
             <div className="flex items-center gap-5">
