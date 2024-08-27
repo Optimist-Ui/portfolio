@@ -22,10 +22,10 @@ const Header = () => {
         I&apos;m looking for internships or entry-level jobs to learn and grow.
       </p>
       <div className="flex flex-row justify-around items-center md:gap-6 gap-2 mb-12 font-semibold ">
-        <div className="md:py-6 md:px-12 py-4 px-5 md:text-inherit text-md bg-gradient-to-l from-[#da7d25bd] to-[#b823e1c5] rounded-[50px] cursor-pointer hover:shadow-[0px_2px_0px_white]">
+        <div className="lg:py-6 lg:px-16 md:py-4 md:px-10 py-2 px-2 lg:text-inherit md:text-md text-base bg-gradient-to-l from-[#da7d25bd] to-[#b823e1c5] rounded-[50px] cursor-pointer hover:shadow-[0px_2px_0px_white]">
           <Link href={"/contact"}>Connect With Me</Link>
         </div>
-        <div className="md:py-6 md:px-16 py-4 px-10 md:text-inherit text-md border-2 border-white  rounded-[50px] cursor-pointer hover:border-[#b823e1c5]">
+        <div className="lg:py-6 lg:px-16 md:py-4 md:px-10 py-2 px-2 lg:text-inherit md:text-md text-base border-2 border-white  rounded-[50px] cursor-pointer hover:border-[#b823e1c5]">
           <Link href={"/resume"}>My Resume</Link>
         </div>
       </div>
