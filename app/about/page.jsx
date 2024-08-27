@@ -89,7 +89,7 @@ const About = () => {
       </div>
       <div className="flex w-[100%] md:justify-around justify-between mb-20 text-xl text-center font-medium ">
         <div className="flex flex-col items-center sm:gap-3 gap-2 transition-transform hover:scale-125 cursor-pointer">
-          <h1 className="md:text-6xl sm:text-4xl text-2xl sm:tracking-normal tracking-tighter font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
+          <h1 className="md:text-6xl sm:text-4xl text-2xl  font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             1+
           </h1>
           <p className="lg:text-lg md:text-sm sm:text-xs text-[.35rem] font-medium">
@@ -98,7 +98,7 @@ const About = () => {
         </div>
         <hr className="w-[1px] h-24 bg-white" />
         <div className="flex flex-col items-center sm:gap-3 gap-2 transition-transform hover:scale-125 cursor-pointer">
-          <h1 className="md:text-6xl sm:text-4xl text-2xl sm:tracking-normal tracking-tighter font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
+          <h1 className="md:text-6xl sm:text-4xl text-2xl  font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             10+
           </h1>
           <p className="lg:text-lg md:text-sm sm:text-xs text-[.35rem] font-medium">
@@ -107,7 +107,7 @@ const About = () => {
         </div>
         <hr className="w-[1px] h-24 bg-white" />
         <div className="flex flex-col items-center sm:gap-3 gap-2 transition-transform hover:scale-125 cursor-pointer">
-          <h1 className="md:text-6xl sm:text-4xl text-2xl sm:-tracking-normal tracking-tighter font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
+          <h1 className="md:text-6xl sm:text-4xl text-2xl  font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             1
           </h1>
           <p className="lg:text-lg md:text-sm sm:text-xs text-[.35rem]  font-medium">
