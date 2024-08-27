@@ -17,7 +17,7 @@ const Contact = () => {
         />
       </div>
       <div className="flex md:flex-row flex-col gap-36">
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-7 md:m-0 ml-[-3rem]">
           <h1 className="md:text-7xl text-5xl font-bold bg-gradient-to-tl bg-clip-text text-transparent to-[#da7d25] from-[#b823e1fd]">
             Let&apos;s talk
           </h1>

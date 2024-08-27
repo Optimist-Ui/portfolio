@@ -20,7 +20,7 @@ const NavBar = () => {
           width={0}
           height={0}
           priority={true}
-          className="bg-stone-300  py-1 px-2 sm:py-2 sm:px-5 rounded-sm w-36 h=36 sm:min-w-44 sm:min-h-42 "
+          className="bg-stone-300  py-1 px-2 sm:py-2 sm:px-5 rounded-sm w-36 h=36 sm:min-w-48 sm:min-h-16 "
         />
       </Link>
       <Image
@@ -34,14 +34,14 @@ const NavBar = () => {
 
       <ul
         ref={menuRef}
-        className="flex md:flex-row md:static fixed  flex-col top-0 gap-4 lg:gap-8 bg-[#1F0016] w-[22rem] h-full z-[2] right-[-22rem] items-start md:h-auto md:w-auto md:bg-inherit md:items-center  lg:text-xl "
+        className="flex md:flex-row md:static fixed  flex-col top-0 gap-4 lg:gap-8 bg-[#1F0016] w-[12rem] h-full z-[2] right-[-22rem] items-start md:h-auto md:w-auto md:bg-inherit md:items-center  lg:text-xl "
       >
         <Image
           src={"/menu_close.svg"}
           alt="Not Available"
           width={40}
           height={40}
-          className="md:hidden block relative top-8 left-72 w-8"
+          className="md:hidden block relative top-4 left-3 w-auto h-auto"
           onClick={close}
         />
         <li className="text-base lg:m-2 ml-20  md:text-inherit md:p-0 md:m-auto  hover:shadow-[0px_2px_0px_white] focus:shadow-[0px_2px_0px_white]">

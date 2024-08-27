@@ -21,7 +21,7 @@ const About = () => {
             alt="Not Available"
             width={400}
             height={400}
-            className="min-w-[24rem] min-h-[36rem] md:block hidden"
+            className="min-w-[24rem] min-h-[36rem] xl:block hidden"
           />
         </div>
         <div className="flex flex-col gap-20">
@@ -42,71 +42,75 @@ const About = () => {
           <div className="flex flex-col md:gap-5 gap-2 ">
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium text-xl">HTML & CSS</p>
-              <hr className="outline-none border-none w-[90%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25] from-[#b823e1]" />
+              <hr className="outline-none border-none md:w-[90%] w-[50%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25] from-[#b823e1]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">
                 JAVASCRIPT
               </p>
-              <hr className="outline-none border-none w-[70%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[60%] w-[20%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">
                 REACT.js
               </p>
-              <hr className="outline-none border-none w-[60%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[50%] w-[10%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">
                 NEXT.js
               </p>
-              <hr className="outline-none border-none w-[70%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[60%] w-[20%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">
                 TAILWIND CSS
               </p>
-              <hr className="outline-none border-none w-[80%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[50%] w-[10%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">
                 TYPESCRIPT
               </p>
-              <hr className="outline-none border-none w-[50%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[36%] w-[8%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">
                 REDUX TOOLKIT
               </p>
-              <hr className="outline-none border-none w-[50%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[50%] w-[10%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
             <div className="flex gap-12 items-center transition-transform hover:scale-105 cursor-pointer">
               <p className="min-w-36 font-medium md:text-xl text-lg ">C++</p>
-              <hr className="outline-none border-none w-[90%] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
+              <hr className="outline-none border-none md:w-[90%] w-[50%] lg:max-w-[51.9rem] sm:max-w-[30rem] max-w-[13rem] md:h-2 h-1 bg-gradient-to-tr to-[#da7d25bd] from-[#b823e1c5]" />
             </div>
           </div>
         </div>
       </div>
-      <div className="flex w-[100%] md:justify-around justify-between mb-20 text-xl text-center font-medium  ">
-        <div className="flex flex-col items-center md:gap-2 gap-1 transition-transform hover:scale-125 cursor-pointer">
+      <div className="flex w-[100%] md:justify-around justify-between mb-20 text-xl text-center font-medium ">
+        <div className="flex flex-col items-center sm:gap-3 gap-2 transition-transform hover:scale-125 cursor-pointer">
           <h1 className="md:text-6xl text-4xl font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             1+
           </h1>
-          <p className="md:text-lg text-sm font-medium">YEARS OF EXPERIENCE</p>
+          <p className="lg:text-lg md:text-sm text-xs font-medium">
+            YEARS OF EXPERIENCE
+          </p>
         </div>
         <hr className="w-[1px] h-24 bg-white" />
-        <div className="flex flex-col items-center md:gap-2 gap-1 transition-transform hover:scale-125 cursor-pointer">
+        <div className="flex flex-col items-center sm:gap-3 gap-2 transition-transform hover:scale-125 cursor-pointer">
           <h1 className="md:text-6xl text-4xl font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             10+
           </h1>
-          <p className="md:text-lg text-sm font-medium">PROJECTS COMPLETED</p>
+          <p className="lg:text-lg md:text-sm text-xs font-medium">
+            PROJECTS COMPLETED
+          </p>
         </div>
         <hr className="w-[1px] h-24 bg-white" />
-        <div className="flex flex-col items-center md:gap-2 gap-1 transition-transform hover:scale-125 cursor-pointer">
+        <div className="flex flex-col items-center sm:gap-3 gap-2 transition-transform hover:scale-125 cursor-pointer">
           <h1 className="md:text-6xl text-4xl font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             1
           </h1>
-          <p className="md:text-lg text-sm font-medium">
+          <p className="lg:text-lg md:text-sm text-xs  font-medium">
             DIPLOMA IN WEB DEVELOPMENT
           </p>
         </div>
