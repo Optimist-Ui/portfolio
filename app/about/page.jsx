@@ -92,7 +92,7 @@ const About = () => {
           <h1 className="md:text-6xl sm:text-4xl text-2xl  font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             1+
           </h1>
-          <p className="lg:text-lg md:text-sm sm:text-xs text-[.35rem] font-medium">
+          <p className="lg:text-lg md:text-sm sm:text-xs text-[.65rem] font-medium">
             YEARS OF EXPERIENCE
           </p>
         </div>
@@ -101,7 +101,7 @@ const About = () => {
           <h1 className="md:text-6xl sm:text-4xl text-2xl  font-bold bg-gradient-to-b bg-clip-text text-transparent to-[#da7d25] from-[#b823e1] ">
             10+
           </h1>
-          <p className="lg:text-lg md:text-sm sm:text-xs text-[.35rem] font-medium">
+          <p className="lg:text-lg md:text-sm sm:text-xs text-[.65rem] font-medium">
             PROJECTS COMPLETED
           </p>
         </div>
