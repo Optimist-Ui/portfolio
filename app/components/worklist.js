@@ -17,4 +17,10 @@ export const data = [
     name: "MovieExplorer",
     link: "https://movie-explorer-by-optimist.vercel.app/",
   },
+  {
+    id: 4,
+    img: "/crud.png",
+    name: "Crud Operation",
+    link: "https://crud-operation-onapi.vercel.app/",
+  },
 ];
