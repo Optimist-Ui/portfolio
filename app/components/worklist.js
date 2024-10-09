@@ -23,4 +23,10 @@ export const data = [
     name: "Crud Operation",
     link: "https://crud-operation-onapi.vercel.app/",
   },
+  {
+    id: 5,
+    img: "/delivery.png",
+    name: "Food Delivery",
+    link: "https://delivery-website-by-optimist.vercel.app/",
+  },
 ];
