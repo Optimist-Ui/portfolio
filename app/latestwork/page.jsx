@@ -20,7 +20,7 @@ const MyWork = () => {
       <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 gap-7 ">
         {data.map((work, index) => {
           return (
-            <div>
+            <div key={index}>
               <Link href={work.link} key={index} legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
                   <Image
