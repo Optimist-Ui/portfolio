@@ -20,17 +20,22 @@ const MyWork = () => {
       <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 gap-7 ">
         {data.map((work, index) => {
           return (
-            <Link href={work.link} key={index} legacyBehavior>
-              <a target="_blank" rel="noopener noreferrer">
-                <Image
-                  src={work.img}
-                  alt="Not Available"
-                  height={600}
-                  width={600}
-                  className="md:w-[419px] w-96 h-48 md:h-72 transition-all hover:scale-110 hover:border-[0.125rem] border-[#ff00ff] border-solid rounded-md "
-                />
-              </a>
-            </Link>
+            <div>
+              <Link href={work.link} key={index} legacyBehavior>
+                <a target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={work.img}
+                    alt="Not Available"
+                    height={600}
+                    width={600}
+                    className="md:w-[419px] w-96 h-48 md:h-72 transition-all hover:scale-110 hover:border-[0.125rem] border-[#ff00ff] border-solid rounded-md "
+                  />
+                </a>
+              </Link>
+              <h1 className="my-2 text-center font-bold text-xl">
+                {work.name}
+              </h1>
+            </div>
           );
         })}
       </div>
