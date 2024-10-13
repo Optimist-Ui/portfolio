@@ -32,7 +32,7 @@ const MyWork = () => {
                   />
                 </a>
               </Link>
-              <h1 className="my-2 text-center font-bold text-xl">
+              <h1 key={index} className="my-2 text-center font-bold text-xl">
                 {work.name}
               </h1>
             </div>
